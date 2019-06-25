@@ -1,0 +1,10 @@
+* text=auto eol=lf encoding=utf-8
+
+# Files that are truly binary and should not be modified
+*.png binary
+*.jpg binary
+*.gif binary
+
+# Files that are truly text and should always be normalized
+*.go text
+*.md text
